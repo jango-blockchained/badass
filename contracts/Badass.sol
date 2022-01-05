@@ -6,8 +6,8 @@ import "@ensdomains/ens/contracts/ReverseRegistrar.sol";
 import "@ensdomains/resolver/contracts/PublicResolver.sol";
 
 // Construct a set of test ENS contracts.
-contract BadassDependencies {
-  bytes32 constant TLD_LABEL = keccak256("badass");
+contract ShrtrDependencies {
+  bytes32 constant TLD_LABEL = keccak256("shrtr");
   bytes32 constant RESOLVER_LABEL = keccak256("resolver");
   bytes32 constant REVERSE_REGISTRAR_LABEL = keccak256("reverse");
   bytes32 constant ADDR_LABEL = keccak256("addr");

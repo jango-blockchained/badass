@@ -57,7 +57,7 @@ async function deployRegistrar(deployer, tld) {
 
 
 module.exports = function(deployer, network) {
-  var tld = 'badass';
+  var tld = 'shrtr';
 
   deployRegistrar(deployer, tld);
 };
